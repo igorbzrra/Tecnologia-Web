@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .destaque {
+            background-color: #fffacd;
+            padding: 15px;
+            border-left: 4px solid #ffa500;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    
+    
+    <header>
+        <h1>Meu Primeiro Site HTML</h1>
+        <p>Exercício Prático - Tags Semânticas e Tabelas</p>
+    </header>
+
+    
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#horarios">Horários</a>
+    </nav>
+
+    
+    <main>
+
+        
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+
+            <h3>Quem sou eu?</h3>
+            <p>
+                Olá! Meu nome é <strong>José Igor</strong>, sou aluno do curso de Ciência da Computação.
+                Este é meu primeiro exercício com <em>HTML semântico</em>.
+            </p>
+
+            <p>Estou aprendendo sobre:</p>
+            <ul>
+                <li>Tags semânticas (header, nav, main, section, article, aside, footer)</li>
+                <li>Listas ordenadas e não ordenadas</li>
+                <li>Tabelas estruturadas</li>
+                <li>Links e imagens</li>
+            </ul>
+
+            <div class="destaque">
+                <strong>Objetivo do Exercício</strong>
+                <p>
+                    Praticar a criação de uma página HTML completa utilizando as principais tags
+                    e mantendo a semântica correta do documento.
+                </p>
+            </div>
+        </section>
+
+        
+        <section id="servicos">
+            <h2>Meus Serviços</h2>
+
+            <h3>O que eu ofereço</h3>
+            <ol>
+                <li><strong>Desenvolvimento Web</strong> - Criação de sites responsivos</li>
+                <li><strong>Manutenção</strong> - Atualização e correção de sites existentes</li>
+                <li><strong>Consultoria</strong> - Orientação sobre melhores práticas</li>
+            </ol>
+        </section>
+
+        <section id="horarios">
+            <h2>Tabela de Horários</h2>
+            <p>2º período - Ciência da Computação</p>
+
+            <table>
+                <tr>
+                    <th>Dia da Semana</th>
+                    <th>Horário</th>
+                    <th>Disciplina</th>
+                    <th>Professor</th>
+                </tr>
+
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>16:50 - 18:30</td>
+                    <td>ACEx I</td>
+                    <td>Eliomar Campos</td>
+                </tr>
+
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>18:30 - 20:10</td>
+                    <td>Banco de Dados</td>
+                    <td>Tiago Eduardo</td>
+                </tr>
+
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>20:20 - 22:00</td>
+                    <td>Tecnologias Web</td>
+                    <td>Fabiano Vaz</td>
+                </tr>
+
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>18:30 - 20:10</td>
+                    <td>Cálculo I</td>
+                    <td>Esdriane Cabral</td>
+                </tr>
+
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>20:20 - 22:00</td>
+                    <td>Banco de Dados</td>
+                    <td>Tiago Eduardo</td>
+                </tr>
+
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>16:50 - 16:30</td>
+                    <td>Ciência, Tecnologia e Sociedade</td>
+                    <td>Rodrigo</td>
+                </tr>
+            </table>
+
+            <p><strong>Finalizar o horário</strong></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 José Igor - Todos os direitos reservados</p>
+        <p>Criado como exercício prático de HTML</p>
+    </footer>
+
+</body>
+</html>

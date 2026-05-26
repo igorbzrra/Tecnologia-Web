@@ -1,0 +1,22 @@
+*{ margin: 0px; padding: 0px;}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.card>img{
+    border-radius: 100px;
+}

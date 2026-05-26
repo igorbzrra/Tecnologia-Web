@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Futebol Brasileiro - Ranking de Títulos</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Futebol Brasileiro - Ranking de Títulos</h1>
+        <p>Os maiores campeões nacionais do Brasil</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <strong>Menu de navegação</strong>
+        <ul>
+            <li><a href="#ranking">Ranking de Títulos</a></li>
+            <li><a href="#cadastro">Cadastro de Jogador</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section id="ranking">
+            <h2>Classificação de Títulos Nacionais</h2>
+            <p>Ranking dos clubes brasileiros com mais títulos do Campeonato Brasileiro</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Posição</th>
+                    <th>Escudo</th>
+                    <th>Time</th>
+                    <th>Títulos Brasileiros</th>
+                    <th>Copa do Brasil</th>
+                    <th>Total</th>
+                </tr>
+
+                <tr>
+                    <td>1º</td>
+                    <td><img src="img/time1.png" width="40"></td>
+                    <td>Palmeiras</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+
+                <tr>
+                    <td>2º</td>
+                    <td><img src="img/MaiorTime.png" width="40"></td>
+                    <td>Flamengo</td>
+                    <td>9*</td>
+                    <td>5</td>
+                    <td>14</td>
+                </tr>
+
+                <tr>
+                    <td>3º</td>
+                    <td><img src="img/time3.png" width="40"></td>
+                    <td>Corinthians</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>11</td>
+                </tr>
+
+                <tr>
+                    <td>4º</td>
+                    <td><img src="img/time4.png" width="40"></td>
+                    <td>Cruzeiro</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>5º</td>
+                    <td><img src="img/time5.png" width="40"></td>
+                    <td>Santos</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>9</td>
+                </tr>
+
+                <tr>
+                    <td>6º</td>
+                    <td><img src="img/time7.png" width="40"></td>
+                    <td>São Paulo</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+
+                <tr>
+                    <td>7º</td>
+                    <td><img src="img/time6.png" width="40"></td>
+                    <td>Grêmio</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>7</td>
+                </tr>
+                
+                <tr>
+                    <td>8º</td>
+                    <td><img src="img/time9.png" width="40"></td>
+                    <td>Vasco</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    <td>9º</td>
+                    <td><img src="img/time10.png" width="40"></td>
+                    <td>Fluminense</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    <td>10º</td>
+                    <td><img src="img/time8.png" width="40"></td>
+                    <td>Atlético-MG</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    
+                    <td colspan="6" align="center"><em>*Módulo Amarelo é Série B</em></td>
+                </tr>
+            </table>
+
+        </section>
+
+        <hr>
+
+        <section id="cadastro">
+            <h2>Cadastro de Jogador</h2>
+            <p>Preencha todos os campos abaixo para cadastrar um novo jogador</p>
+
+            <form>
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    Nome Completo:<br>
+                    <input type="text"><br><br>
+
+                    E-mail:<br>
+                    <input type="email"><br><br>
+
+                    Senha:<br>
+                    <input type="password"><br><br>
+
+                    Data de Nascimento:<br>
+                    <input type="date"><br><br>
+
+                    Idade:<br>
+                    <input type="number"><br><br>
+
+                    Altura (em metros):<br>
+                    <input type="number" step="0.01"><br><br>
+
+                    Peso (kg):<br>
+                    <input type="range" min="0" max="150"> 75 kg<br><br>
+
+                    Telefone:<br>
+                    <input type="tel" placeholder="XX-XXXXX-XXXX"><br><br>
+
+                    Site Pessoal:<br>
+                    <input type="url" placeholder="https://exemplo.com"><br><br>
+
+                    Cor Favorita:<br>
+                    <input type="color"><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Dados Profissionais</legend>
+
+                    Selecione o Clube:<br>
+                    <select>
+                        <option>-- Escolha um clube --</option>
+                        <option>Flamengo</option>
+                        <option>Palmeiras</option>
+                        <option>Corinthians</option>
+                        <option>São Paulo</option>
+                        <option>Vasco</option>
+                        <option>Fluminense</option>
+                        <option>Grêmio</option>
+                        <option>Santos</option>
+                        <option>Atlético-MG</option>
+                        <option>Cruzeiro</option>
+                    </select><br><br>
+
+                    Posição Principal:<br>
+                    <select size="5">
+                        <option>Goleiro</option>
+                        <option>Zagueiro</option>
+                        <option>Lateral</option>
+                        <option>Meio-campo</option>
+                        <option>Atacante</option>
+                    </select><br><br>
+
+                    Número da Camisa:<br>
+                    <input type="number"><br><br>
+
+                    Salário (R$):<br>
+                    <input type="number" placeholder="Ex: 50000.00"><br><br>
+
+                    Data de Vencimento do Contrato:<br>
+                    <input type="date"><br><br>
+
+                    Horário de Treino Preferido:<br>
+                    <input type="time" value="07:00"><br><br>
+
+                    Data e Hora da Última Partida:<br>
+                    <input type="datetime-local"><br><br>
+
+                    Mês/Ano de Contratação:<br>
+                    <input type="month"><br><br>
+
+                    Semana de Folga:<br>
+                    <input type="week"><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Características</legend>
+
+                    Pé Dominante:<br>
+                    <input type="radio" name="pe" checked> Destro<br>
+                    <input type="radio" name="pe"> Canhoto<br>
+                    <input type="radio" name="pe"> Ambidestro<br><br>
+
+                    Habilidades Especiais:<br>
+                    <input type="checkbox"> Cobrador de Faltas<br>
+                    <input type="checkbox"> Cobrador de Pênaltis<br>
+                    <input type="checkbox"> Potencial Capitão<br>
+                    <input type="checkbox"> Convocável para Seleção<br><br>
+
+                    Biografia do Jogador:<br>
+                    <textarea rows="4" cols="40" placeholder="Escreva uma breve biografia do jogador..."></textarea><br><br>
+
+                    Upload de Foto do Jogador:<br>
+                    <input type="file"><br><br>
+
+                    Pesquisar Estatísticas:<br>
+                    <input type="search" placeholder="Digite para buscar..."><br><br>
+                </fieldset>
+
+                <br>
+
+                <input type="submit" value="Cadastrar Jogador">
+                <input type="reset" value="Limpar Formulário">
+                <input type="button" value="Ajuda">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer align = "center">
+        <p><strong>José Igor - Ciência da Computação - IFBA</strong></p>
+        <p>© 2026.1 - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
